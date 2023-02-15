@@ -1,6 +1,5 @@
 import React from 'react'
 import photo from './item.PNG'
-// import Logo from './images/react-logo.png';
 
 export default function Home() {
   return (
