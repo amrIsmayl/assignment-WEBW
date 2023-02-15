@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+:root {
+  --color1: rgba(255, 0, 0, 0.856);
+  --color2: Turquoise;
+  --color3: rgb(211, 79, 211);
+  --color4: rgb(93, 216, 93);
+}
+
+body {
+  background-color: beige !important;
+}
+
+.font-style {
+  font-family: 'Marck Script', cursive;
+}
+
+.dach {
+  width: 14%;
+  border: 2px solid #dc3545;
+}
+
+.dach-1 {
+  width: 32%;
+  border: solid 1px #dc3545;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.color-1 {
+  background-color: var(--color1) !important;
+}
+
+.color-2 {
+  background-color: var(--color2);
+}
+
+.color-3 {
+  background-color: var(--color3);
+}
+
+.text-color {
+  color: var(--color3);
+}
+
+.color-4 {
+  background-color: var(--color4);
+}
+
+.img-scale {
+  scale: 1.4;
+}
+
+.font-s {
+  font-size: 13px;
+}
+
+.numbers {
+  width: 40px;
+  height: 40px;
+}
+
+.line-style {
+  height: 80px;
+  width: 1px;
+  top: 50px;
+  border: #9c9fa1 solid 1px;
+}
+
+.carousel-width {
+  max-width: 540px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #dc3545 !important;
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50% !important;
+  margin: 0px 7px 0px 7px;
+}
+
+.carousel-indicators {
+  bottom: -110px !important;
+}
+
+.carousel-control-next-icon {
+  opacity: 0% !important;
+}
+
+.carousel-control-prev-icon {
+  opacity: 0% !important;
+}
+
+.height-img {
+  height: 210px;
+}
+
+input {
+  background: white;
+  border: 2px white solid;
+  border-radius: 10px;
+  color: black;
+}
+
+.button-footer {
+  border: none;
+  color: white;
+  padding: 2px;
+  margin-top: 1px;
+  margin-right: 2px;
+  width: 40% !important;
+}
+
+
+/* media query */
+
+/* 1 */
+
+@media screen and (max-width:576px) and (min-width:0px) {
+  .Nav-button {
+    scale: .8;
+  }
+
+  .home-screen {
+    text-align: center;
+  }
+
+  .home-p {
+    padding: 0 !important;
+  }
+
+  .home-button {
+    margin-bottom: 30px !important;
+  }
+
+  .home-brands {
+    text-align: center;
+  }
+
+  .section-2 {
+    text-align: center;
+  }
+
+  .section-2-right {
+    padding-right: 0 !important;
+  }
+
+  .section-2-postion {
+    position: relative;
+  }
+
+  .section-2-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-2-dach-position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-scale {
+    scale: 1;
+  }
+
+  .BestPlatform {
+    text-align: center;
+  }
+
+  .BestPlatform-right {
+    padding-top: 50px !important;
+    padding-left: 0 !important;
+  }
+
+  .BestPlatform-item {
+    padding: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .Overview {
+    padding: 0 !important;
+  }
+
+  .Overview-scale-img {
+    scale: 1.1;
+  }
+
+  .Section3-font-size {
+    font-size: 1.5rem;
+  }
+
+  .Take-section-3 {
+    padding-top: 100px;
+  }
+
+  .height-img {
+    height: 180px;
+  }
+
+  .height-img {
+    height: 460px;
+  }
+
+  .Take-text-margin {
+    margin-top: 20px;
+  }
+
+  .Take-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .Take-text-centr {
+    text-align: center;
+  }
+
+  .Footer-text {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    text-align: center;
+  }
+
+  .Footer-bg-dark {
+    height: 130px !important;
+  }
+
+}
+
+
+/* 2 */
+
+@media screen and (max-width:768px) and (min-width:577px) {
+
+  .Nav-button {
+    scale: .8;
+  }
+
+  .home-screen {
+    text-align: center;
+  }
+
+  .home-p {
+    padding: 0 !important;
+  }
+
+  .home-button {
+    margin-bottom: 30px !important;
+  }
+
+  .home-brands {
+    text-align: center;
+  }
+
+  .section-2 {
+    text-align: center;
+  }
+
+  .section-2-right {
+    padding: 0 !important;
+  }
+
+  .section-2-postion {
+    position: relative;
+  }
+
+  .section-2-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-2-dach-position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-scale {
+    scale: 1;
+  }
+
+  .BestPlatform {
+    text-align: center;
+  }
+
+  .BestPlatform-right {
+    padding-top: 50px !important;
+    padding-left: 0 !important;
+  }
+
+  .BestPlatform-item {
+    padding: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .Overview-scale-img {
+    scale: 1.2;
+  }
+
+  .Overview {
+    padding: 0 !important;
+  }
+
+  .Take-section-3 {
+    padding-top: 100px;
+  }
+
+  .Take-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .height-img {
+    height: 460px;
+  }
+
+  .Take-text-margin {
+    margin-top: 20px;
+  }
+
+  .Take-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .Take-text-centr {
+    text-align: center;
+  }
+
+  .Footer-text {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    text-align: center;
+  }
+
+  .Footer-bg-dark {
+    height: 130px !important;
+  }
+
+}
+
+
+/* 3 */
+
+@media screen and (max-width:992px) and (min-width:769px) {
+  .Section3-font-size {
+    font-size: 1.5rem;
+  }
+
+  .BestPlatform-item {
+    padding: 0 !important;
+  }
+
+  .Take-section-3 {
+    padding-top: 100px;
+  }
+
+  .Take-text-centr {
+    text-align: center;
+  }
+
+  .Take-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .Footer-section-2 {
+    padding-right: 0 !important;
+    padding-right: 10px !important;
+  }
+
+  .Footer-padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* 4 */
+
+@media screen and (max-width:1200px) and (min-width:993px) {
+
+  .home-brands {
+    text-align: center;
+  }
+
+  .Footer-padding {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+}
+
+/* 5 */
+
+@media screen and (max-width:1200px) and (min-width:993px) {
+  .full-screen {
+    position: relative;
+  }
+
+  .full-screen-items {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) !important
+  }
+
+  .Nav-button {
+    position: absolute;
+    right: 0;
+  }
+
+  .height-img {
+    height: 160px;
+  }
+
+  .Take-font-size {
+    font-size: .9rem !important;
+  }
+
+  .Footer-section-2 {
+    padding-right: 0 !important;
+    padding-right: 10px !important;
+  }
+
+}
+
+
+@media screen and (max-width:1400px) and (min-width:1201px) {
+  .full-screen {
+    position: relative;
+  }
+
+  .full-screen-items {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) !important
+  }
+
+  .Nav-button {
+    position: absolute;
+    right: 0;
+  }
+}
