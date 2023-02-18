@@ -1,5 +1,7 @@
 import React from 'react'
 import photo from './item.PNG'
+import photo1 from './111111.png'
+import photo2 from './222222.PNG'
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -24,12 +26,12 @@ export default function Overview() {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <div className=' pt-3'>
-                                        <img src={photo} alt="" className='Overview-scale-img w-100 border border-white border-5 rounded-4 shadow' />
+                                        <img src={photo1} alt="" className='Overview-scale-img w-100 border border-white border-5 rounded-4 shadow' />
                                     </div>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <div className=' pt-3'>
-                                        <img src={photo} alt="" className='Overview-scale-img w-100 border border-white border-5 rounded-4 shadow' />
+                                        <img src={photo2} alt="" className='Overview-scale-img w-100 border border-white border-5 rounded-4 shadow' />
                                     </div>
                                 </Carousel.Item>
                             </Carousel>
